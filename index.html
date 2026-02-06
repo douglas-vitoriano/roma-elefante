@@ -452,17 +452,50 @@
     }
 
     @media (max-width: 768px) {
-      .imagotipo {
-        flex-direction: column;
+      .section {
+        padding: 3rem 1.5rem;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .hero-imagotipo {
+        width: 85% !important;
+        max-width: 300px;
+        height: auto;
+        margin-top: 0;
+      }
+
+      .main-logo {
+        font-size: 5rem;
+      }
+
+      .section-title {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+      }
+
+      .isotipo, .imagotipo {
+        max-width: 220px;
+        height: 120px;
+      }
+
+      .logotipo {
+        max-width: 220px;
+        height: 100px;
+      }
+
+      .color-palette {
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
       }
 
-      .section {
-        padding: 3rem 1rem;
-      }
-
-      .brand-card {
-        padding: 2rem;
+      .monograma {
+        width: 120px;
+        height: 120px;
+        font-size: 3.5rem;
       }
     }
   </style>
